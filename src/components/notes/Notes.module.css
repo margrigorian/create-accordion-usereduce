@@ -1,0 +1,31 @@
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.inputHead{
+    font-weight: bold;
+    color: rgb(53, 52, 52);
+}
+.input{
+    width: 500px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textArea{
+    width: 500px;
+    margin: 10px 0;
+    padding: 10px;
+    border-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttonSubmit{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.notesArea{
+    margin: 0 0 3% 52%;
+}

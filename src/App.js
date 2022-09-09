@@ -1,9 +1,11 @@
-import './App.css';
+import style from './App.module.css';
+import Notes from './components/notes/Notes';
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <p className={style.headerText}>THE NOTES</p>
+      <Notes />
     </div>
   );
 }

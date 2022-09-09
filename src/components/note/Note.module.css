@@ -1,0 +1,43 @@
+.noteContainer{
+    margin-top: 10px;
+    width: 500px;
+    height: 70px;
+}
+.noteTheme{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: rgb(237, 232, 232);
+    border-radius: 3px;
+}
+.noteHeadText{
+    font-weight: bold;
+    color: rgb(53, 52, 52);
+}
+.buttonsContainer{
+    display: flex;
+}
+.buttonMore{
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: orange;
+    cursor: pointer;
+}
+.buttonDelete{
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.noteDescription{
+    width: 500px;
+    margin-top: 5px;
+    /* когда много текта, не ограничивает */
+    padding: 5px 10px;
+    border: 1px solid rgb(183, 180, 180);
+    border-radius: 3px;
+    font-size: 13px;
+    /* не работает */
+    overflow: hidden;
+}
